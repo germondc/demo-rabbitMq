@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dataflow
+  rabbitmq:
+    host: crdc-001uatcbe1.scmbdirectory.com
+    username: alchemy_apache
+    password: Password1
+          
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: INFO
+    
+rabbitMqTest:
+  duration: 10000
